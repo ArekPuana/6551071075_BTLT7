@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính không dùng biến trung gian</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        body { margin: 30px; font-size: 18px; }
+        input[type="text"] { width: 60px; height: 23px; text-align: center; }
+        button {padding: 5px 10px;}
+    </style>
+</head>
+<body>
+    <input type="text" id="num1" value="12">
+    <button class="op" data-op="+">+</button>
+    <button class="op" data-op="-">-</button>
+    <button class="op" data-op="*">x</button>
+    <button class="op" data-op="/">/</button>
+    <button class="op" data-op="^">^</button>
+    <input type="text" id="num2" value="14"> =
+    <input type="text" id="result" readonly>
+
+    <script src="Scripts/c8.js"></script>
+</body>
+</html>

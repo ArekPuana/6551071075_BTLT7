@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiểm tra Form Đăng ký</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <style>
+    body { margin: 30px; font-family: Arial, sans-serif; }
+    label { display: block; margin-top: 10px; }
+    input[type="text"] { width: 100%;}
+    .buttons { margin-top: 15px; }
+  </style>
+</head>
+<body>
+  <h2>Personal Information</h2>
+  <label id="registerForm">
+    <label>Enter name*:
+      <input type="text" id="name">
+    </label>
+
+    <label>Sex*:
+      <input type="radio" name="sex" value="Male"> Male
+      <input type="radio" name="sex" value="Female"> Female
+    </label>
+
+    <label>Enter email address*:
+      <input type="text" id="email" placeholder="example@gmail.com">
+    </label>
+
+    <label>Enter birthday (MM/DD/YYYY)*:
+      <input type="text" id="birthday" placeholder="MM/DD/YYYY hoặc MM-DD-YYYY">
+    </label>
+
+    <label>Enter street address (line 1)*:
+      <input type="text" id="address">
+    </label>
+
+    <label>Enter city*:</label>
+      <input type="text" id="address">
+    </label>
+
+    <label>Enter 5-digit ZIP code*:
+      <input type="text" id="zipcode">
+    </label>
+
+    <div class="buttons">
+      <button type="button" id="finish">Finish</button>
+      <button type="button" id="clear">Clear</button>
+    </div>
+  </form>
+
+  <script src="Scripts/c9.js"></script>
+</body>
+</html>

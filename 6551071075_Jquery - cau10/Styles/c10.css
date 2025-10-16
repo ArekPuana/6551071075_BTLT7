@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.calculator {
+    border: 3px groove #999;
+    padding: 10px;
+    background: #ddd;
+    width: 180px;
+  }
+#display {
+    width: 96%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: right;
+    border: 2px inset #bbb;
+    padding-right: 5px;
+  }
+.button {
+    width: 35px;
+    height: 30px;
+    margin: 3px;
+    font-size: 16px;
+    border: 2px outset #fff;
+    background: #eee;
+    cursor: pointer;
+  }
+.button:active {
+    border: 2px inset #aaa;
+    background: #ccc;
+  }
